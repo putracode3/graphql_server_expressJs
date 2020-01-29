@@ -27,9 +27,9 @@ $ npm run dev
 
 ### Pilihan run script
 
-| Pilihan | Keterangan |
-| ------ | ------ |
-| start | `"node app.js"` |
-| server | `"nodemon app.js"` |
-| client | `"npm start --prefix ../../react_js/spacex"` |
-| dev | `"concurrently \"npm run server\" \"npm run client\""` |
+| Pilihan | Script | Keterangan |
+| ------ | ------ | ------ |
+| start | `"node app.js"` | run server normal |
+| server | `"nodemon app.js"` | run server dengan hot-reload / auto refresh server |
+| client | `"npm start --prefix ../../react_js/spacex"` | menjalankan frontend ReactJs letak folder di `../../react_js/spacex` |
+| dev | `"concurrently \"npm run server\" \"npm run client\""` | menjalankan script server dan client |
